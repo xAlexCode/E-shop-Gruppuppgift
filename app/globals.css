@@ -1,26 +1,18 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Färger och typsnitt från docs/design. Används som bg-wine, text-ink, font-serif osv. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-wine: #6a1f35;
+  --color-cream: #fcfbf8;
+  --color-sand: #efeae4;
+  --color-ink: #2a2926;
+  --color-muted: #5b5852;
+  --color-line: #e3ded6;
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-instrument-serif);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
 }

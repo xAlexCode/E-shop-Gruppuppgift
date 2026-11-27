@@ -241,4 +241,4 @@ Varje ticket kontrolleras också för hand i webbläsaren, och varje test ska ha
 
 ## Open questions
 
-- Var bilderna på vinerna kommer ifrån: egna illustrationer i `public/` som i mockupen, eller en gemensam platshållarbild. Det behöver bestämmas innan testdatan skrivs i ticket 01.
+- Inga. (Bilderna på vinerna är beslutade: `image_url` är en extern webbadress till en fri bild, från en eller ett par sajter som tillåts i Next.js bildinställningar. De kan senare laddas ner till `public/` utan att något annat ändras.)
