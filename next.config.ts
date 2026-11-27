@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  // Bilderna på vinerna länkas från olika sajter på nätet.
+  // "**" betyder: alla sajter, så länge adressen börjar med https.
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "**" }],
+  },
 };
 
 export default nextConfig;
